@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Todo List</title>
+		<!--Mis estilos-->
+		<link rel="stylesheet" href="assets/styles/styles.css" />
+		<!--Mis fuentes-->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<h2>Todo List</h2>
+			<hr />
+			<div>
+				<p>Nueva Tarea</p>
+				<input
+					class="class-input"
+					id="input-task"
+					type="text"
+					placeholder="Tareas"
+				/>
+				<button class="class-button" type="button-add" id="button">
+					Agregar
+				</button>
+			</div>
+
+			<div class="container-datos">
+				<div>
+					<p>Total: <span id="contador">0</span></p>
+					<p>Realizadas: <span id="hecho">0</span></p>
+				</div>
+				<div class="container-list">
+					<p>
+						<span class="element-id element-title">ID</span
+						><span class="element-title">Tareas</span>
+					</p>
+					<ul id="lista_productos"></ul>
+				</div>
+			</div>
+		</div>
+		<script src="assets/js/index.js"></script>
+		<script
+			src="https://kit.fontawesome.com/8c0839d651.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

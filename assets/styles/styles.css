@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: 'Roboto', sans-serif;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border: 1px solid black;
+	width: 500px;
+	height: 300px;
+	padding: 8px;
+	background-color: rgb(233, 233, 233);
+}
+.container h2 {
+	font-size: 35px;
+}
+hr {
+	background-color: darkgray;
+}
+.class-input {
+	width: 400px;
+	height: 40px;
+	border-radius: 4px;
+	border: none;
+}
+.class-button {
+	background-color: rgb(3, 126, 3);
+	color: white;
+	width: 75px;
+	height: 45px;
+	border: none;
+}
+.container-datos {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+}
+.container-datos ul {
+	list-style: none;
+}
+.container-datos button {
+	border: none;
+	color: red;
+	font-size: 15px;
+	cursor: pointer;
+	margin-left: 5px;
+}
+.container-list {
+	width: 300px;
+}
+.element-id {
+	margin-right: 15px;
+}
+.element-title {
+	font-weight: bold;
+}
+
+.completed {
+	text-decoration: line-through;
+	color: green;
+}
+
+.task-name.completed {
+	text-decoration: line-through;
+	color: green;
+}
